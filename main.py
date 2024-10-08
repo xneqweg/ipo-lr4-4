@@ -1,2 +1,7 @@
-sqr= [x**3 for x in range(0, 21) if x % 2 == 0]
-print(sqr)
+# Исходный список строк
+strings = ["pen", "pencil", "paper"]
+
+# Генератор списка для создания нового списка с тройными строками
+tripled_strings = [s * 3 for s in strings]
+
+print(tripled_strings)
